@@ -45,4 +45,4 @@ Running the Virtual Schema requires a Java Runtime version 9 or later.
 
 # License
 
-This software is licensed under the [MIT license](LICENSE)
+This software is licensed under the [MIT license](LICENSE).

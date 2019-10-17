@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.exasol</groupId>
+  <artifactId>java-util-logging-testing</artifactId>
+  <version>${product.version}</version>
+  <name>Test utilities for `java.util.logging`</name>
+  <description>This project provides utilities that help testing software that uses `java.util.logging` as its logging framework.</description>
+  <properties>
+    <product.version>2.2.0</product.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>9</java.version>
+    <junit.version>5.4.2</junit.version>
+    <junit.platform.version>1.4.2</junit.platform.version>
+    <maven.surefire.version>2.22.1</maven.surefire.version>
+    <vscommon.version>7.3.0</vscommon.version>
+    <vsjdbc.version>1.0.0</vsjdbc.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-runner</artifactId>
+      <version>${junit.platform.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest</artifactId>
+      <version>2.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

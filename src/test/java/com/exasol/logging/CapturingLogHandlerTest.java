@@ -23,4 +23,15 @@ class CapturingLogHandlerTest {
         Logger.getLogger("com.exasol").info(messageToBeCaptured);
         assertThat(this.capturingLogHandler.getCapturedData(), equalTo(messageToBeCaptured));
     }
+
+    @Test
+    void testReset() {
+        final String messageToBeIngored = "Ignore this!";
+        final String messageToBeCaptured = "Capture that!";
+        final Logger logger = Logger.getLogger("com.exasol");
+        logger.info(messageToBeIngored);
+        this.capturingLogHandler.reset();
+        logger.info(messageToBeCaptured);
+        assertThat(this.capturingLogHandler.getCapturedData(), equalTo(messageToBeCaptured));
+    }
 }

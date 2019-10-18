@@ -1,16 +1,14 @@
 language: java
-
 matrix:
   include:
-    - jdk: "openjdk9"
-
+  - jdk: openjdk9
 addons:
   sonarcloud:
     organization: exasol
- 
+    token:
+      secure: NbMZSH9nYrfu5gD3amFbWfWLR6ipLIjTtnvvsFkBk17luv7ghS3ZjtCHpfWPDxbzI1VaZ33/OL+xR4CPhO/RLA2peM29TzhlKEKuzzMeTqzODlLbXjgNwYAE3FfHpIaS7mDb+BuGyzWsh/PTVOVOJ6s2Nr6PGt5hLS1H4GfRFp8U5ufIwNOohxibVQRm7sDWYY/WWGt8LXIvg/90OXgfeEJL8mms5rKWmEJBUFKtTKcUO3Npf3U5fjlvemD0qgI+klYyc5hmbxQAtR+TcPVN4qo2TCJFXBPBpbb3HLK29PBeCVb7JpZ+09FfqWWzrq57l+vCT6Z1gWcO5VT6gpiLG4CMLMgCM42Wp4rF37U3lwZIAso+FFAXP8FQTAgCQ0yyN5yEKz7PaIF2vqRSOY5A6XOxYQ/PItE3B7+xQe6JpVa0cV1z3j2F9NL8IMTJTJHFcQz2a6qADB+TfhXDQXK6SNFb1/5h6pCfe1IdjfF/kn8kPPpYaxHPrl42D7N2ctDvPcBSHX0WjN31pDIQxoGuzIKvs3Yj8jsMyY/qg4TBK61OR/1vmxbSdr80grd+MxiVFbb/bwKDAaH1uVLA5yJ8rxTfVYQDSVSxqwiYyP+1Mj2kTRmXYpci3iGxOPtVPxtg3MvIUvoMRiHeF2sdgev1pVGIx4qJZ3PxSoMBFydpB7I=
 script:
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
-
+- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
 cache:
   directories:
-  - $HOME/.m2
+  - "$HOME/.m2"

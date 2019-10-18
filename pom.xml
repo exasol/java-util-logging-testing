@@ -9,7 +9,7 @@
   <description>This project provides utilities that help testing software that uses `java.util.logging` as its logging framework.</description>
   <url>https://github.com/exasol/java-util-logging-testing</url>
   <properties>
-    <product.version>2.2.0</product.version>
+    <product.version>1.0.0</product.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>9</java.version>

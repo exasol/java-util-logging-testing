@@ -41,7 +41,7 @@ Running the Virtual Schema requires a Java Runtime version 9 or later.
 | Dependency                                                                          | Purpose                                                | License                       |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------|-------------------------------|
 | [Java Hamcrest](http://hamcrest.org/JavaHamcrest/)                                  | Checking for conditions in code via matchers           | BSD License                   |
-| [J5SE](https://github.com/itsallcode/junit5-system-extensions)                      | JUnit5 extensions to test Java System.x functions      | Eclipse Public License 2.0    |
+| [JUnit](https://junit.org/junit5)                                                   | Unit testing framework                                 | Eclipse Public License 1.0    |
 
 # License
 

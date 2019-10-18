@@ -5,33 +5,30 @@ import static org.hamcrest.Matchers.equalTo;
 
 import java.util.logging.Logger;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class CapturingLogHandlerTest {
-    private final CapturingLogHandler capturingLogHandler = new CapturingLogHandler();
-
-    @BeforeEach
-    void beforeEach() {
-        Logger.getLogger("com.exasol").addHandler(this.capturingLogHandler);
-        this.capturingLogHandler.reset();
-    }
 
     @Test
     void testCapturingLogMessage() {
         final String messageToBeCaptured = "Capture this!";
-        Logger.getLogger("com.exasol").info(messageToBeCaptured);
-        assertThat(this.capturingLogHandler.getCapturedData(), equalTo(messageToBeCaptured));
+        final Logger logger = Logger.getLogger("com.exasol");
+        final CapturingLogHandler capturingLogHandler = new CapturingLogHandler();
+        Logger.getLogger("com.exasol").addHandler(capturingLogHandler);
+        logger.info(messageToBeCaptured);
+        assertThat(capturingLogHandler.getCapturedData(), equalTo(messageToBeCaptured));
     }
 
     @Test
-    void testReset() {
+    void testClose() {
         final String messageToBeIngored = "Ignore this!";
         final String messageToBeCaptured = "Capture that!";
         final Logger logger = Logger.getLogger("com.exasol");
+        final CapturingLogHandler capturingLogHandler = new CapturingLogHandler();
+        Logger.getLogger("com.exasol").addHandler(capturingLogHandler);
         logger.info(messageToBeIngored);
-        this.capturingLogHandler.reset();
+        capturingLogHandler.close();
         logger.info(messageToBeCaptured);
-        assertThat(this.capturingLogHandler.getCapturedData(), equalTo(messageToBeCaptured));
+        assertThat(capturingLogHandler.getCapturedData(), equalTo(messageToBeCaptured));
     }
 }

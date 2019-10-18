@@ -5,8 +5,6 @@ matrix:
 addons:
   sonarcloud:
     organization: exasol
-    token:
-      secure: "U96UVRljdb7jU02BBNYse4D//t5MsdQbrlmCP42+cKPQ4CpuNqaQlMBrVC7HF6DRhpUzOgg7LLWrhPnEVhwdTse6dYcAAxsdZT8f/x1RADWyDzFEeKHEDmKkprfbmOwptIxaMm8HWhL+TAqFDKuRrsHREuzHX3zThu9z21mv6udyI4lvbAdK7VH0W8drheJ+pfNVBv0DJurtVeV0ybmdbuK2NkbMCKhEpQNXgIavwPWmWW3DbNuKWVxtTWr6N0tLCt9WiTyd2kToYTqbTgS+Qb5Ax6QuBXxQh0K/gmfxzHoYypdh0G8jtFU+6yVVsxBrqPxxZXDMGRQ4biqOa2uK2cdKBWutMX0w2iKNcw9cP9zu+fVqahNbP5/yjO05CWFuhvGxc8AL5PhV2fBDmABJSgLuTcm5WnNw/VbIJn4lYuj+D7qEJ6X5LxusVHK04K4AfzLBB3aeBxCGwm9pFUTtkmGYcGSr8QCPsZC/4utysnMcs9CUAbynTvqshlqY2jJPcPvTbfk7fideQXz4GGGfn4qzwy2UTlHBQwDiNFqxzi3LaFUAlmAouP9bJxWn9hTTBN/DbMDlTG9nWCH9mzg4LbQgku4dvIDKnkCvt6qzrp2AfGDtPw0vzxXe2VhdeXEf0baOPpt2eodbxEeuzTb0ZWg937xr/Pp/Ui3sAiQmM00="
 script:
 - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=com.exasol:java-util-logging-testing
 cache:

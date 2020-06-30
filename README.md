@@ -34,7 +34,7 @@ This is an open source project which is officially supported by Exasol. For any 
 
 ### Run Time Dependencies
 
-Running the Virtual Schema requires a Java Runtime version 9 or later.
+Running the Virtual Schema requires a Java Runtime version 11 or later.
 
 ### Build Time Dependencies
 

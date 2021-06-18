@@ -1,6 +1,6 @@
 # Test Utilities for `java.util.logging`
 
-[![Build Status](https://travis-ci.com/exasol/java-util-logging-testing.svg?branch=master)](https://travis-ci.com/exasol/java-util-logging-testing)
+[![Build Status](https://travis-ci.com/exasol/java-util-logging-testing.svg?branch=main)](https://travis-ci.com/exasol/java-util-logging-testing)
 [![Maven Central](https://img.shields.io/maven-central/v/com.exasol/java-util-logging-testing)](https://search.maven.org/artifact/com.exasol/java-util-logging-testing)
 
 SonarCloud results:

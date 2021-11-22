@@ -11,3 +11,18 @@ target
 .idea
 # Intellij recommends to share iml files, however, better don't share files which might be outdated
 *.iml
+.DS_Store
+*.swp
+local
+.dbeaver*
+**/*.log
+.directory
+venv/
+dependency-reduced-pom.xml
+pom.xml.versionsBackup
+~*
+*.lock
+*.bak
+*.orig
+*.old
+*.md.html

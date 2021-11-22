@@ -27,6 +27,7 @@ jobs:
         run: |
           mvn --batch-mode --update-snapshots clean verify sonar:sonar \
               -DtrimStackTrace=false \
+              -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn \
               -Dsonar.organization=exasol \
               -Dsonar.host.url=https://sonarcloud.io \
               -Dsonar.login=$SONAR_TOKEN

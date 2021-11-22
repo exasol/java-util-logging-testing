@@ -19,4 +19,5 @@ In release 2.0.1 of `java.util.logging` we migrated the CI build from Travis CI 
 * Added `com.exasol:error-code-crawler-maven-plugin:0.1.1`
 * Added `com.exasol:project-keeper-maven-plugin:1.3.2`
 * Added `io.github.zlika:reproducible-build-maven-plugin:0.13`
+* Updated `org.apache.maven.plugins:maven-deploy-plugin:2.7` to `3.0.0-M1`
 * Added `org.sonatype.plugins:nexus-staging-maven-plugin:1.6.8`

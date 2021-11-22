@@ -22,7 +22,7 @@
 | [org.sonatype.ossindex.maven:ossindex-maven-plugin][18] | [ASL2][17]                                     |
 | [Versions Maven Plugin][20]                             | [Apache License, Version 2.0][7]               |
 | [Apache Maven Enforcer Plugin][22]                      | [Apache License, Version 2.0][7]               |
-| [Maven Deploy Plugin][24]                               | [The Apache Software License, Version 2.0][17] |
+| [Apache Maven Deploy Plugin][24]                        | [Apache License, Version 2.0][7]               |
 | [Nexus Staging Maven Plugin][26]                        | [Eclipse Public License][27]                   |
 | [error-code-crawler-maven-plugin][28]                   | [MIT][5]                                       |
 | [Reproducible Build Maven Plugin][30]                   | [Apache 2.0][17]                               |
@@ -44,6 +44,7 @@
 [6]: https://maven.apache.org/plugins/maven-compiler-plugin/
 [16]: http://maven.apache.org/plugins/maven-gpg-plugin/
 [9]: https://www.eclipse.org/legal/epl-2.0/
+[24]: https://maven.apache.org/plugins/maven-deploy-plugin/
 [27]: http://www.eclipse.org/legal/epl-v10.html
 [30]: http://zlika.github.io/reproducible-build-maven-plugin
 [36]: http://maven.apache.org/plugins/maven-jar-plugin/
@@ -55,7 +56,6 @@
 [18]: https://sonatype.github.io/ossindex-maven/maven-plugin/
 [12]: https://maven.apache.org/plugins/maven-source-plugin/
 [2]: http://hamcrest.org/JavaHamcrest/
-[24]: http://maven.apache.org/plugins/maven-deploy-plugin/
 [40]: http://maven.apache.org/plugins/maven-site-plugin/
 [34]: http://maven.apache.org/plugins/maven-resources-plugin/
 [14]: https://maven.apache.org/plugins/maven-javadoc-plugin/

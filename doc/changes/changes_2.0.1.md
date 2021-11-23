@@ -1,4 +1,4 @@
-# Test utilities for `java.util.logging` 2.0.1, released 2021-11-22
+# Test utilities for `java.util.logging` 2.0.1, released 2021-11-23
 
 Code name: Migrated to GitHub Actions and used Project Keeper
 

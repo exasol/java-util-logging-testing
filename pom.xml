@@ -100,6 +100,13 @@
                     </excludedPlugins>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>com.exasol</groupId>
+                <artifactId>error-code-crawler-maven-plugin</artifactId>
+                <configuration>
+                  <skip>true</skip>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <parent>

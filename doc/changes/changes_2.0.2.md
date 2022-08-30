@@ -4,7 +4,7 @@ Code name: Dependency updates
 
 ## Summary
 
-Updated dependencies especially project-keeper maven plugin and by that fixed report for broken links to opensource.org.
+Updated dependencies, especially project-keeper maven plugin and by that fixed check for broken links to opensource.org.
 
 ## Features
 

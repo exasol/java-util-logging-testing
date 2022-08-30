@@ -9,7 +9,7 @@
         framework.</description>
     <url>https://github.com/exasol/java-util-logging-testing/</url>
     <properties>
-        <junit.version>5.8.1</junit.version>
+        <junit.version>5.9.0</junit.version>
     </properties>
     <licenses>
         <license>
@@ -91,14 +91,6 @@
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <modules>
-                        <module>maven_central</module>
-                    </modules>
-                    <excludedPlugins>
-                        <excludedPlugin>com.exasol:error-code-crawler-maven-plugin</excludedPlugin>
-                    </excludedPlugins>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>com.exasol</groupId>

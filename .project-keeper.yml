@@ -2,7 +2,6 @@ sources:
   - type: maven
     path: pom.xml
     modules:
-      - jar_artifact
       - maven_central
 version:
   fromSource: pom.xml

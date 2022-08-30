@@ -1,0 +1,5 @@
+error-tags:
+  JULT:
+    packages:
+      - com.exasol.logging
+    highest-index: 0

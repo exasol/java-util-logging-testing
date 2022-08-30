@@ -1,7 +1,7 @@
 # Test Utilities for `java.util.logging`
 
 [![Build Status](https://github.com/exasol/java-util-logging-testing/actions/workflows/ci-build.yml/badge.svg)](https://github.com/exasol/java-util-logging-testing/actions/workflows/ci-build.yml)
-[![Maven Central](https://img.shields.io/maven-central/v/com.exasol/java-util-logging-testing)](https://search.maven.org/artifact/com.exasol/java-util-logging-testing)
+[![Maven Central – Test utilities for `java.util.logging`](https://img.shields.io/maven-central/v/com.exasol/java-util-logging-testing)](https://search.maven.org/artifact/com.exasol/java-util-logging-testing)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=com.exasol%3Ajava-util-logging-testing&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.exasol%3Ajava-util-logging-testing)
 

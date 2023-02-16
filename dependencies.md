@@ -15,8 +15,8 @@
 | [SonarQube Scanner for Maven][4]                        | [GNU LGPL 3][5]                                |
 | [Apache Maven Compiler Plugin][6]                       | [Apache License, Version 2.0][7]               |
 | [Apache Maven Enforcer Plugin][8]                       | [Apache License, Version 2.0][7]               |
-| [Maven Flatten Plugin][9]                               | [Apache Software Licenese][10]                 |
-| [org.sonatype.ossindex.maven:ossindex-maven-plugin][11] | [ASL2][10]                                     |
+| [Maven Flatten Plugin][9]                               | [Apache Software Licenese][7]                  |
+| [org.sonatype.ossindex.maven:ossindex-maven-plugin][10] | [ASL2][11]                                     |
 | [Maven Surefire Plugin][12]                             | [Apache License, Version 2.0][7]               |
 | [Versions Maven Plugin][13]                             | [Apache License, Version 2.0][7]               |
 | [Apache Maven Deploy Plugin][14]                        | [Apache License, Version 2.0][7]               |
@@ -25,15 +25,15 @@
 | [Apache Maven Javadoc Plugin][17]                       | [Apache License, Version 2.0][7]               |
 | [Nexus Staging Maven Plugin][18]                        | [Eclipse Public License][19]                   |
 | [JaCoCo :: Maven Plugin][20]                            | [Eclipse Public License 2.0][21]               |
-| [Maven Assembly Plugin][22]                             | [The Apache Software License, Version 2.0][10] |
+| [Maven Assembly Plugin][22]                             | [The Apache Software License, Version 2.0][11] |
 | [Project keeper maven plugin][23]                       | [The MIT License][24]                          |
 | [error-code-crawler-maven-plugin][25]                   | [MIT License][26]                              |
-| [Reproducible Build Maven Plugin][27]                   | [Apache 2.0][10]                               |
-| [Maven Clean Plugin][28]                                | [The Apache Software License, Version 2.0][10] |
-| [Maven Resources Plugin][29]                            | [The Apache Software License, Version 2.0][10] |
-| [Maven JAR Plugin][30]                                  | [The Apache Software License, Version 2.0][10] |
-| [Maven Install Plugin][31]                              | [The Apache Software License, Version 2.0][10] |
-| [Maven Site Plugin 3][32]                               | [The Apache Software License, Version 2.0][10] |
+| [Reproducible Build Maven Plugin][27]                   | [Apache 2.0][11]                               |
+| [Maven Clean Plugin][28]                                | [The Apache Software License, Version 2.0][11] |
+| [Maven Resources Plugin][29]                            | [The Apache Software License, Version 2.0][11] |
+| [Maven JAR Plugin][30]                                  | [The Apache Software License, Version 2.0][11] |
+| [Maven Install Plugin][31]                              | [The Apache Software License, Version 2.0][11] |
+| [Maven Site Plugin 3][32]                               | [The Apache Software License, Version 2.0][11] |
 
 [0]: https://junit.org/junit5/
 [1]: https://www.eclipse.org/legal/epl-v20.html
@@ -45,10 +45,10 @@
 [7]: https://www.apache.org/licenses/LICENSE-2.0.txt
 [8]: https://maven.apache.org/enforcer/maven-enforcer-plugin/
 [9]: https://www.mojohaus.org/flatten-maven-plugin/
-[10]: http://www.apache.org/licenses/LICENSE-2.0.txt
-[11]: https://sonatype.github.io/ossindex-maven/maven-plugin/
+[10]: https://sonatype.github.io/ossindex-maven/maven-plugin/
+[11]: http://www.apache.org/licenses/LICENSE-2.0.txt
 [12]: https://maven.apache.org/surefire/maven-surefire-plugin/
-[13]: http://www.mojohaus.org/versions-maven-plugin/
+[13]: https://www.mojohaus.org/versions/versions-maven-plugin/
 [14]: https://maven.apache.org/plugins/maven-deploy-plugin/
 [15]: https://maven.apache.org/plugins/maven-gpg-plugin/
 [16]: https://maven.apache.org/plugins/maven-source-plugin/

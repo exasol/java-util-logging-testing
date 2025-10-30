@@ -1,12 +1,10 @@
 # Test Utilities for Java-util-logging 2.0.4, released 2025-10-30
 
-Code name:
+Code name: Upgrade Project Keeper
 
 ## Summary
 
-## Features
-
-* ISSUE_NUMBER: description
+This release upgrades Project Keeper and dependencies.
 
 ## Dependency Updates
 

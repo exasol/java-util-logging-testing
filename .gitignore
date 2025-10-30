@@ -6,6 +6,7 @@
 bin
 target
 .cache
+.settings/org.eclipse.jdt.apt.core.prefs
 
 # Intellij
 .idea

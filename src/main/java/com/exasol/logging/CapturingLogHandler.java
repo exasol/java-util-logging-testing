@@ -12,8 +12,8 @@ public class CapturingLogHandler extends Handler {
     private final StringBuilder buffer = new StringBuilder();
 
     @Override
-    public void publish(final LogRecord record) {
-        this.buffer.append(record.getMessage());
+    public void publish(final LogRecord logRecord) {
+        this.buffer.append(logRecord.getMessage());
     }
 
     @Override

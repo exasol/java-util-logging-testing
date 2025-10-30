@@ -24,6 +24,7 @@ Code name:
 * Added `io.github.git-commit-id:git-commit-id-maven-plugin:9.0.2`
 * Removed `io.github.zlika:reproducible-build-maven-plugin:0.16`
 * Added `org.apache.maven.plugins:maven-artifact-plugin:3.6.1`
+* Removed `org.apache.maven.plugins:maven-assembly-plugin:3.7.1`
 * Updated `org.apache.maven.plugins:maven-clean-plugin:3.2.0` to `3.5.0`
 * Updated `org.apache.maven.plugins:maven-compiler-plugin:3.10.1` to `3.14.1`
 * Updated `org.apache.maven.plugins:maven-deploy-plugin:3.0.0` to `3.1.4`

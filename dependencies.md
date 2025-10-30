@@ -33,9 +33,9 @@
 | [Central Publishing Maven Plugin][26]                   | [The Apache License, Version 2.0][5]        |
 | [JaCoCo :: Maven Plugin][27]                            | [EPL-2.0][28]                               |
 | [Quality Summarizer Maven Plugin][29]                   | [MIT License][30]                           |
-| [Project Keeper Maven plugin][31]                       | [The MIT License][32]                       |
-| [error-code-crawler-maven-plugin][33]                   | [MIT License][34]                           |
-| [Git Commit Id Maven Plugin][35]                        | [GNU Lesser General Public License 3.0][36] |
+| [error-code-crawler-maven-plugin][31]                   | [MIT License][32]                           |
+| [Git Commit Id Maven Plugin][33]                        | [GNU Lesser General Public License 3.0][34] |
+| [Project Keeper Maven plugin][35]                       | [The MIT License][36]                       |
 
 [0]: https://junit.org/
 [1]: https://www.eclipse.org/legal/epl-v20.html
@@ -68,9 +68,9 @@
 [28]: https://www.eclipse.org/legal/epl-2.0/
 [29]: https://github.com/exasol/quality-summarizer-maven-plugin/
 [30]: https://github.com/exasol/quality-summarizer-maven-plugin/blob/main/LICENSE
-[31]: https://github.com/exasol/project-keeper/
-[32]: https://github.com/exasol/project-keeper/blob/main/LICENSE
-[33]: https://github.com/exasol/error-code-crawler-maven-plugin/
-[34]: https://github.com/exasol/error-code-crawler-maven-plugin/blob/main/LICENSE
-[35]: https://github.com/git-commit-id/git-commit-id-maven-plugin
-[36]: http://www.gnu.org/licenses/lgpl-3.0.txt
+[31]: https://github.com/exasol/error-code-crawler-maven-plugin/
+[32]: https://github.com/exasol/error-code-crawler-maven-plugin/blob/main/LICENSE
+[33]: https://github.com/git-commit-id/git-commit-id-maven-plugin
+[34]: http://www.gnu.org/licenses/lgpl-3.0.txt
+[35]: https://github.com/exasol/project-keeper/
+[36]: https://github.com/exasol/project-keeper/blob/main/LICENSE

@@ -25,10 +25,6 @@ The Exasol's testing utilities for `java.util.logging` allow testing log message
 
 Add this log handler if you want to record log messages created by your software and check the contents as part of unit tests.
 
-## Customer Support
-
-This is an open source project which is officially supported by Exasol. For any question, you can contact our support team.
-
 ## Information for Users
 
 * [Changelog](doc/changes/changelog.md)
